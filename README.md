@@ -1,7 +1,8 @@
 Laravel Posts App
 Use laravel migration to create users 
-Authenticate use's login using Laravel Authentication service and Session Facades to implement cookie-base authentication on request that are initiated from the browser
+Authenticate use's login using Laravel Authentication service and Session Facades, implement cookie-base authentication on request that are initiated from the browser
 Impliment protection against Cross Site Request Forgery (CSRF)
+Validate incoming http request form submission and display errors in the view where relevant
 Restrict posting, edit posts, delete posts to only authenticated user 
 Explore laravel (length aware paginator) to organize posts 
 Use laravel model Factories to generate use cases i.e testing and database seeding 
@@ -12,7 +13,8 @@ configuring automatic email alert to a user when someone likes a posts that belo
 Use debugbar to monitor http request/response 
 Reduce request traffic by eager-loading Model instances into db queries
 Route model binding as a simpler way of querying database resources, e.g include model names in routes
+Email configuration and testing with Mailhog and Mailtrap
+Testing Laravel API's with Postman
 
 ## License
-
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
